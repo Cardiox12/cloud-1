@@ -17,7 +17,6 @@ provider "proxmox" {
 }
 
 resource "proxmox_vm_qemu" "proxmox_infra" {
-    # Two QEMU Proxmox VM's
     count       = 5
 
     # Configure VM-Name
